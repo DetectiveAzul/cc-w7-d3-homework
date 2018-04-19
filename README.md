@@ -89,4 +89,4 @@ You can let objects to use methods reserved to different interfaces, and also, i
 
 9. What happens to the behaviours when the object composed of them is destroyed?
 
-Nothing. They're independent.
+Since the behaviour are independent, they don't perish along with the object, but its functions are not accessible since we don't have access to the object containing them, until a new object containing this behaviours appears. 
